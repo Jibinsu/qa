@@ -25,8 +25,14 @@
 #age=input('Please enter your age') 
 #print(username,'is',age,'years old')
 
-length=4
-print(length)
+length = int(input("4"))
 
-width=2
-print(width)
+width = int(input("2"))
+
+perimeter = 2 * (length + width)
+
+print("Perimeter:", perimeter)
+
+area = length * width
+
+print("Area:", area)
