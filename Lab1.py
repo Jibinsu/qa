@@ -26,9 +26,9 @@ age=input('Please enter your age')
 print(username,'is',age,'years old')
 
 #rectangle time :) 
-length = int(input("4:"))
+length = int(input("4"))
 
-width = int(input("2:"))
+width = int(input("2"))
 
 perimeter = 2 * (length + width)
 
