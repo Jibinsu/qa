@@ -40,3 +40,4 @@ elif int(grade) in range(66, 101):
     print ("Distinction")
 else:
     print ("Please enter a number between 1 and 100")
+
