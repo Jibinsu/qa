@@ -71,3 +71,5 @@ if average >= 65:
     print("Pass")
 else:
     print("Fail")
+
+#part 2
