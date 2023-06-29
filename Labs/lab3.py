@@ -52,7 +52,7 @@ word = input("Enter a word: ")
 vowel_count = 0
 
 for char in word:
-    if char.lower() in "aeiou":
+    if char.lower() in "aeiouAEIOU":
         vowel_count += 1
 
 print("Number of vowels:", vowel_count)
@@ -71,3 +71,22 @@ if average >= 65:
     print("Pass")
 else:
     print("Fail")
+
+#part 2
+
+# Task 1 - Squares
+for number in range(1, 101):
+    square = number ** 2
+    print(number, ":", square)
+    if square > 2000:
+        break
+
+
+# Task 2 - Factorial
+num = int(input("Enter an integer: "))
+factorial = 1
+
+for i in range(1, num + 1):
+    factorial *= i
+
+print("The factorial of", num, "is", factorial)
