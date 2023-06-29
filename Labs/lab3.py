@@ -11,7 +11,7 @@ while number <= 100:
         break
     number += 1
 #Task 2 - Factorial:
-number = int(input("Enter an integer: "))
+number = int(input("Enter an number: "))
 factorial = 1
 
 while number > 0:
